@@ -3,7 +3,7 @@
     <img src="./public/assets/netflix-logo.png" alt="Logo" width="100" height="32">
   </a>
 
-  <h3 align="center">Netflix Clone</h3>
+  <h3 align="center">Netflix Project</h3>
 
   <p align="center">
     <a href="https://netflix-clone-react-typescript.vercel.app/">View Demo</a>
@@ -81,9 +81,9 @@
 ## Install with Docker
 
 ```sh
-docker build --build-arg TMDB_V3_API_KEY=your_api_key_here -t netflix-clone .
+docker build --build-arg TMDB_V3_API_KEY=your_api_key_here -t netflix-project .
 
-docker run --name netflix-clone-website --rm -d -p 80:80 netflix-clone
+docker run --name netflix-project --rm -d -p 80:80 netflix-project
 ```
 
 ## Todo
